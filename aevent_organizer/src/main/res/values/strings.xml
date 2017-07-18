@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Organizer</string>
+    <string name="server_client_id">966314298950-7damarn9a509rvfi1uc7d7ed2mvc2eli.apps.googleusercontent.com</string>
+
+    <string name="hint_user_full_name">Full name</string>
+    <string name="hint_user_email">Email</string>
+    <string name="hint_user_password">Password</string>
+    <string name="hint_user_phone">Phone number</string>
+    <string name="hint_user_feedback">Write a feedback...</string>
+
+    <string name="button_login">Login</string>
+    <string name="login_failure">Failed to login user!</string>
+
+    <string name="facebook_app_id">1242216579147273</string>
+
+    <string name="events">Events</string>
+    <string name="loading">Loading…</string>
+    <string name="register">Register</string>
+    <string name="new_participant">New Participant</string>
+
+    <string name="sign_in_with_fb">Sign In with Facebook</string>
+    <string name="sign_in_with_google">Sign In with Google+</string>
+
+    <string name="err_msg_password_empty">Enter the password</string>
+    <string name="err_msg_password_less_seven_letter">Enter valid password ( > 7 letter)</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_name">Enter the full name</string>
+    <string name="err_msg_phone_empty">Enter the phone</string>
+    <string name="err_msg_phone_invalid">Phone number has 10 or 11 digit</string>
+
+    <string name="err_network_connection">Check network connection and try again</string>
+    <string name="err_unknown">Something went wrong</string>
+    <string name="err_account_not_correct">User name or password is not correct</string>
+
+    <string name="title_activity_event_navigation_drawer">EventNavigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="date_time_format">MMM dd, yyyy \'at\' hh:mm a</string>
+
+    <string name="item_home">Home</string>
+    <string name="item_profile">Profile</string>
+    <string name="item_about_us">About Us</string>
+    <string name="item_logout">Logout</string>
+    <string name="item_add">Add</string>
+    <string name="item_edit">Edit</string>
+    <string name="item_clear">Clear</string>
+    <string name="item_take_picture">Take a picture</string>
+    <string name="item_choose_picture">Choose a picture</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save</string>
+    <string name="msg_status_empty">Empty</string>
+    <string name="msg_status_error">Can\'t fetch data, check connection and try again</string>
+
+    <string name="confirm_msg_broadcast_upcoming">Send alert for upcoming topic?</string>
+    <string name="confirm_msg_broadcast_cancel">Send alert for cancelled topic?</string>
+
+    <string name="upcoming">UPCOMING</string>
+    <string name="cancel">CANCEL</string>
+    <string name="msg_no_feedback">No feedback</string>
+
+    <string name="fileProvider">vn.axonactive.aevent_organizer.fileProvider</string>
+    <string name="fb_login_protocol_scheme">fb1242216579147273</string>
+    <string name="hockey_app_app_id">88f651ef812145bc9c471a6c4273ba9a</string>
+
+</resources>

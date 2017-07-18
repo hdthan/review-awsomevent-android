@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".fragment.FeedbackFragment">
+
+    <EditText
+        android:id="@+id/edt_feed_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="top|start"
+        android:hint="@string/hint_user_feedback"
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLength="250"
+        android:maxLines="10"
+        android:minLines="5" />
+
+    <TextView
+        android:id="@+id/txt_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="0/250"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/button_border_transparent"
+            android:text="Clear"
+            android:textColor="#BDBDBD" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:background="@drawable/button_border_transparent"
+            android:enabled="false"
+            android:text="Submit"
+            android:textColor="#BDBDBD" />
+    </LinearLayout>
+</LinearLayout>

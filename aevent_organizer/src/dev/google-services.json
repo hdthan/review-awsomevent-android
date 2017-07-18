@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "463519389203",
+    "firebase_url": "https://awesome-events-dev.firebaseio.com",
+    "project_id": "awesome-events-dev",
+    "storage_bucket": "awesome-events-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463519389203:android:ffb67b2e1e132e02",
+        "android_client_info": {
+          "package_name": "vn.axonactive.aevent_organizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463519389203-thjanndf47jni2m2g2805emc7pl0sgs9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLKNjR_40kdAvqBQKdmz17xDYiYiXfdE8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463519389203:android:6e334e584878f3cd",
+        "android_client_info": {
+          "package_name": "vn.axonactive.aevent_organizer.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463519389203-thjanndf47jni2m2g2805emc7pl0sgs9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLKNjR_40kdAvqBQKdmz17xDYiYiXfdE8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

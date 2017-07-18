@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingEnd="40dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="40dp"
+            android:paddingStart="16dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/btn_cancel"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@android:color/transparent"
+            android:padding="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_cancel_white" />
+    </FrameLayout>
+
+    <vn.axonactive.aevent.custom.ScrollViewCustom
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:max_height="300dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <vn.axonactive.aevent.custom.JustifyTextView
+                android:id="@+id/txt_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:lineSpacingExtra="2sp"
+                android:textColor="#9E9E9E"
+                android:textSize="14sp" />
+
+            <GridView
+                android:id="@+id/grid_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnWidth="96dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:horizontalSpacing="8dp"
+                android:numColumns="auto_fit"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="8dp" />
+
+        </LinearLayout>
+    </vn.axonactive.aevent.custom.ScrollViewCustom>
+</LinearLayout>

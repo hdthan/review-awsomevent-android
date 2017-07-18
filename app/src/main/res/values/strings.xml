@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Eventomorrow</string>
+    <string name="server_client_id">966314298950-7damarn9a509rvfi1uc7d7ed2mvc2eli.apps.googleusercontent.com</string>
+    <string name="hint_user_full_name">Full name</string>
+    <string name="hint_user_email">Email</string>
+    <string name="hint_user_password">Password</string>
+    <string name="hint_user_phone">Phone</string>
+    <string name="hint_user_job">Job</string>
+    <string name="hint_user_com">Company</string>
+    <string name="hint_user_birthday">Birthday</string>
+    <string name="hint_user_address">Address</string>
+    <string name="hint_user_feedback">Write a feedback...</string>
+
+    <string name="button_sign_up">Sign up</string>
+    <string name="button_login">Login</string>
+    <string name="sign_up_failure">Email is exist</string>
+    <string name="login_failure">Email or Password is not correct</string>
+
+    <string name="google_map_api">AIzaSyD3Iac3cK_3QKIu1tLwA5byGVEegk-YVX0</string>
+    <string name="facebook_app_id">1242216579147273</string>
+    <string name="facebook_login_success">Login Facebook Success</string>
+    <string name="facebook_login_cancel">Login Facebook Cancelled</string>
+    <string name="facebook_login_error">Login Facebook Error</string>
+    <string name="fb_login_protocol_scheme">fb1242216579147273</string>
+
+    <string name="google_login_success">Login Google Success</string>
+    <string name="google_login_cancel">Login Google Cancelled</string>
+    <string name="google_login_error">Login Google Error</string>
+
+    <string name="sign_in_with_fb">Sign In with Facebook</string>
+    <string name="sign_in_with_google">Sign In with Google+</string>
+
+    <string name="events">Events</string>
+    <string name="loading">Loading...</string>
+    <string name="register">Register</string>
+    <string name="description">Description:</string>
+    <string name="speaker">Speaker:</string>
+    <string name="coming_soon">Coming soon</string>
+
+    <string name="err_msg_password_empty">Enter the password</string>
+    <string name="err_msg_password_less_seven_letter">Enter valid password ( > 7 letter)</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_name">Enter the full name</string>
+    <string name="err_msg_com">Enter the company</string>
+    <string name="err_msg_job">Enter the job</string>
+    <string name="err_msg_phone">Enter the phone number</string>
+    <string name="err_msg_phone_invalid">The phone number has 10 or 11 digit</string>
+    <string name="err_network_connection">Check network connection and try again</string>
+    <string name="err_unknown">Something went wrong</string>
+    <string name="err_account_not_correct">User name or password is not correct</string>
+    <string name="err_account_exist">Email is exist</string>
+
+    <string name="title_activity_list_event">List Event</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="date_time_format">MMM dd, yyyy \'at\' hh:mm a</string>
+    <string name="time_format">hh:mm</string>
+
+    <string name="msg_status_empty">Empty</string>
+    <string name="msg_status_error">Can\'t fetch data, check connection and try again</string>
+    <string name="msg_guiding">Use this QR Code to check-in.</string>
+    <string name="msg_no_feedback">No feedback</string>
+    <string name="fileProvider">vn.axonactive.aevent.dev.fileProvider</string>
+    <string name="fbProvider">com.facebook.app.FacebookContentProvider1242216579147273</string>
+    <string name="hockey_app_app_id">af3e05b2432548cc9033565989fd8852</string>
+
+    <string-array name="arrange_age_array">
+        <item>Under 18</item>
+        <item>18 - 25</item>
+        <item>25 - 35</item>
+        <item>Over 35</item>
+    </string-array>
+</resources>

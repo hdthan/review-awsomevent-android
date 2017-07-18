@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="textLightNavigationBar" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorTextNavigation</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_navigation_bar</item>
+    </style>
+
+    <style name="textTitle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorTextTitle</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="textDate" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorTextDate</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_size_date</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="textLocation" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorTextLocation</item>
+        <item name="android:textSize">@dimen/text_size_location</item>
+        <item name="android:clickable">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="flatButton" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="textProfile" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_view_profile</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="textDetailLargeTitle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorTextTitle</item>
+        <item name="android:textSize">@dimen/text_size_detail_large</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowColor">#BBDEFB</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="textNormalDark" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

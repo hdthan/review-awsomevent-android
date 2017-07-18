@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2d8db9</color>
+    <color name="colorPrimaryDark">#1a6d93</color>
+    <color name="colorAccent">#009688</color>
+    <color name="colorBackground">#F1F1F1</color>
+    <color name="colorTextNavigation">#1565C0</color>
+    <color name="transparent">#33FFFFFF</color>
+    <color name="colorTextTitle">#757575</color>
+    <color name="colorTextDate">#9e9e9e</color>
+    <color name="colorTextLocation">#9e9e9e</color>
+    <color name="colorTextDark">#000000</color>
+    <color name="colorBackgroundFb">#3C66C4</color>
+    <color name="colorBackgroundGoogle">#CF4332</color>
+    <color name="colorTextTab">#BDBDBD</color>
+    <color name="colorSelectedTextTab">#8BC34A</color>
+    <color name="colorBackgroundSelectedMenuItem">#ECEFF1</color>
+    <color name="white">#ffffff</color>
+    <color name="bgrUnread">#80BDBDBD</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Organizer</string>
+    <string name="server_client_id">966314298950-7damarn9a509rvfi1uc7d7ed2mvc2eli.apps.googleusercontent.com</string>
+    <string name="google_map_api">AIzaSyD3Iac3cK_3QKIu1tLwA5byGVEegk-YVX0</string>
+    <string name="facebook_app_id">1242216579147273</string>
+    <string name="fileProvider">vn.axonactive.aevent_organizer.fileProvider</string>
+    <string name="fb_login_protocol_scheme">fb1242216579147273</string>
+    <string name="hockey_app_app_id">88f651ef812145bc9c471a6c4273ba9a</string>
+</resources>
